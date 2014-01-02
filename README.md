@@ -23,3 +23,5 @@ grunt
 This will automatically find the AMD module dependencies, pull the correct code from the /modules/ folder (pulled in via submodules) and compile everything together
 
 5) View the index.html file located in src/main/webapp/ and open console
+
+TODO: Include this into a Brightspot CMS built and run grunt using the maven plugin
