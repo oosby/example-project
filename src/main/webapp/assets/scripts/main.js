@@ -4,23 +4,24 @@
     require.config({
         name: "main",
         baseUrl: '/assets/scripts',
-        // In the paths, you can specify which version of each module you'd like to use to create a shortcut. 
-        // Alternatively, you could specify the whole module name any time you needed it
+        // In the paths, you can specify which version of each module you'd like to use 
         paths: {
+            // external but housed in our modules repo for ease of use
             'jquery': 'modules/jquery/jquery-1.10.2',
+
+            // psd created
+            'cookie': 'modules/cookie/cookie-1.0.0'
         },
         wrap: true
     });
 
-    define(['modules/cookie/psd.cookie'], function (module) {
+    define(['cookie'], function (cookie) {
 
-        console.log(module);
 
     });
 
     define(['jquery'], function($) {
 
-        console.log($);
 
     });
 
