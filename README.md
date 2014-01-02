@@ -3,7 +3,7 @@ Example AMD Module project
 
 Example project using AMD Modules. Uses a submodule to pull in the PSD AMD Module Repo. 
 
-1) Clone example-project repo using --recursive, which also pulls in the submodules
+1) Clone example-project repo using --recursive, which also pulls in the submodules (from https://github.com/trhoppe/module-repository)
 ```
 git clone --recursive https://github.com/trhoppe/example-project.git
 ```
