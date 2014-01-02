@@ -15,13 +15,10 @@
         wrap: true
     });
 
-    define(['cookie'], function (cookie) {
+    define(['jquery','cookie'], function ($, cookie) {
 
-
-    });
-
-    define(['jquery'], function($) {
-
+        // project code can start here
+        
 
     });
 
