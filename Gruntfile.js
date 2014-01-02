@@ -21,8 +21,9 @@ module.exports = function (grunt) {
         },
         
         requirejs: {
-            dev: {
+            all: {
                 options: {
+                    name: 'modules/almond/almond-0.2.6',
                     include: 'main',
                     baseUrl: "src/main/webapp/assets/scripts",
                     mainConfigFile: "src/main/webapp/assets/scripts/main.js",
