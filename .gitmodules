@@ -1,0 +1,3 @@
+[submodule "src/main/webapp/assets/scripts"]
+	path = src/main/webapp/assets/scripts
+	url = https://thoppe@github.com/trhoppe/module-repository.git
