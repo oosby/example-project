@@ -3,7 +3,7 @@
 
     require.config({
         name: "main",
-        baseUrl: '/assets/scripts',
+        baseUrl: 'assets/scripts',
         // In the paths, you can specify which version of each module you'd like to use 
         paths: {
             // external but housed in our modules repo for ease of use
