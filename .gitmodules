@@ -1,3 +1,3 @@
-[submodule "src/main/webapp/assets/scripts"]
-	path = src/main/webapp/assets/scripts
-	url = https://thoppe@github.com/trhoppe/module-repository.git
+[submodule "src/main/webapp/assets/modules"]
+	path = src/main/webapp/assets/modules
+	url = https://trhoppe@github.com/trhoppe/module-repository.git
