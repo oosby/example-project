@@ -11,6 +11,7 @@
 /doc
 
 node
+node_modules
 
 example.js
 
