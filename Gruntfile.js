@@ -8,6 +8,8 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-requirejs');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Project configuration.
     grunt.initConfig({
@@ -30,6 +32,27 @@ module.exports = function (grunt) {
                     out: 'src/main/webapp/assets/scripts/example.js',
                     preserveLicenseComments: false
                 }
+            }
+        },
+
+        less: {
+            development: {
+                files: {
+                    "./src/main/webapp/assets/css/main.css" : "./src/main/webapp/assets/less/main.less"
+                },
+                options: {
+                    sourceMap: true,
+                    sourceMapFilename: './src/main/webapp/assets/css/main.css.map',
+                    sourceMapURL: '/assets/css/main.css.map'
+                }
+            }
+        },
+
+        watch: {
+            files: "./src/main/webapp/assets/less/*",
+            tasks: ["less"],
+            options: {
+                livereload: true
             }
         }
 
